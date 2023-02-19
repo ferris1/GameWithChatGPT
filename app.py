@@ -27,7 +27,7 @@ model, optimizer, learning_rate, epochs = utils.load_checkpoint(r'./model/G_9530
 
 
 def gpt3_chat(prompt) -> str:
-    openai.api_key = "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"
+    openai.api_key = "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"
     model_engine = "text-davinci-003"
     # Generate a response
     completion = openai.Completion.create(
